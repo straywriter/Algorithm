@@ -1,0 +1,6 @@
+# algorithm
+
+file(GLOB_RECURSE SortFile ${CMAKE_CURRENT_SOURCE_DIR}/Sort/*.hpp CACHE STRING "" FORCE)
+
+set(SortIncludeDir ${CMAKE_CURRENT_SOURCE_DIR}/Sort CACHE STRING "" FORCE )
+
